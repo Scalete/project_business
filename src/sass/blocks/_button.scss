@@ -1,0 +1,17 @@
+.btn {
+    width: 250px;
+    height: 65px;
+    border: none;
+    &:focus {
+        outline: none;
+    }
+    background: $main-color;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    color: #FFFFFF;
+    &_mt29 {
+        margin-top: 29px;
+    }
+}
