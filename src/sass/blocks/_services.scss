@@ -1,0 +1,18 @@
+.services {
+    padding-top: 399px;
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-auto-columns: 386px;
+        gap: 41px 41px;
+    }
+    &__item {
+        &-subtitle {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+
+            color: rgba(0, 0, 0, 0.5);
+        }
+    }
+}
