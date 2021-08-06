@@ -2,17 +2,40 @@
     .container {
         max-width: 960px;
     }
+
 }
 
 @media (max-width: 992px) {
     .container {
         max-width: 720px;
     }
+    .promo {
+        &__block {
+            max-width: 626px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
 }
 
 @media (max-width: 768px) {
     .container {
         max-width: 540px;
+    }
+    .promo {
+        &__block {
+            max-width: 407px;
+            padding: 34px 29px 45px 29px;
+        }
+        &__title {
+            font-size: 25px;
+            line-height: 35px;
+            text-align: center;
+        }
+        &__btn {
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 }
 
@@ -21,4 +44,20 @@
         max-width: 100%;
         padding: 0 10px;
     }
+    .promo {
+        &__block {
+            max-width: 264px;
+        }
+        &__title {
+            font-size: 21px;
+            line-height: 28px;
+        }
+        &__btn {
+            width: 175px;
+        }
+        &__subtitle {
+            font-size: 17px;
+        }
+    }
+    
 }

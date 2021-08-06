@@ -6,11 +6,15 @@
         outline: none;
     }
     background: $main-color;
-
     font-weight: 700;
     font-size: 18px;
     line-height: 125%;
     color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     &_mt29 {
         margin-top: 29px;
     }
