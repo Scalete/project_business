@@ -1,0 +1,33 @@
+.facilities {
+    padding-top: 240px;
+    &__title {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    &__items {
+        margin-top: 108px;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(auto, 275px));
+        grid-template-rows: 265px;
+        gap: 46px 46px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        &-title {
+            font-size: 22px;
+            line-height: 28px;
+        }
+        &-subtitle {
+            opacity: 0.5;
+        }
+        &-link {
+            height: 100%;
+            display: flex;
+            align-items: flex-end;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

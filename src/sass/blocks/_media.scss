@@ -18,6 +18,13 @@
             } 
         }
     }
+    .facilities {
+        padding-top: 200px;
+        &__items {
+            grid-template-columns: repeat(auto-fit,minmax(auto,275px));
+            gap: 46px 46px;
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -40,6 +47,22 @@
         &__item {
             &-title {
                 margin-top: 30px;
+            }
+        }
+    }
+    .facilities {
+        padding-top: 150px;
+        &__title {
+            text-align: center;
+        }
+        &__items {
+            margin-top: 70px;
+            grid-template-rows: 242px;
+            justify-content: center;
+        }
+        &__item {
+            &-title {
+                margin-top: 40px;
             }
         }
     }
@@ -79,6 +102,22 @@
             }
         }
     }
+    
+    .facilities {
+        padding-top: 100px;
+        &__title {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        &__items {
+            margin-top: 60px;
+        }
+        &__item {
+            &-title {
+                margin-top: 20px;
+            }
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -111,5 +150,23 @@
             }
         }
     }
-    
+
+    .facilities {
+        padding-top: 100px;
+        &__title {
+            font-size: 24px;
+            line-height: 31px;
+        }
+        &__items {
+            margin-top: 40px;
+            grid-template-rows: 190px;
+        }
+        &__item {
+            align-items: center;
+            &-subtitle {
+                margin-top: 9px;
+                text-align: center;
+            }
+        }
+    }
 }
