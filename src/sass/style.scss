@@ -14,6 +14,15 @@ h1, h2, h3, h4, h5 {
     padding: 0 10px;
 }
 
+.divider {
+    width: 100%;
+    opacity: 0.2;
+    border: 1px solid #000000;
+    &_mt85 {
+        margin-top: 85px;
+    }
+}
+
 @import 'blocks/title';
 @import 'blocks/button';
 @import 'blocks/promo';
@@ -21,6 +30,7 @@ h1, h2, h3, h4, h5 {
 @import 'blocks/facilities';
 @import 'blocks/community';
 @import 'blocks/advantages';
+@import 'blocks/footer';
 
 @import 'blocks/media';
 

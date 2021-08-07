@@ -5,6 +5,9 @@
     font-size: 24px;
     line-height: 30px;
     color: #000000;
+    &_mt16 {
+        margin-top: 16px;
+    }
     &_mt24 {
         margin-top: 24px;
     }
@@ -13,6 +16,10 @@
     }
     &_mt84 {
         margin-top: 84px;
+    }
+    &_fz48 {
+        font-size: 48px;
+        line-height: 60px;
     }
 }
 
