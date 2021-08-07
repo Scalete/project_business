@@ -1,0 +1,29 @@
+.advantages {
+    padding-top: 232px;
+    &__title {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    &__items {
+        margin-top: 108px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(auto, 386px));
+        grid-template-rows: 272px;
+        gap: 41px 41px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        &-title {
+            font-size: 22px;
+            line-height: 28px;
+        }
+        &-subtitle {
+            max-width: 386px;
+            height: 100%;
+            opacity: 0.5;
+            display: flex;
+            align-items: flex-end;
+        }
+    }
+}

@@ -43,6 +43,17 @@
             margin-right: auto;
         }
     }
+    .advantages {
+        padding-top: 150px;
+        &__item {
+            &-title {
+                font-size: 21px;
+            }
+            &-subtitle {
+                font-size: 13px;
+            }
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -88,6 +99,18 @@
         &__shops {
             margin-top: 50px;
             column-gap: 24px;
+        }
+    }
+    .advantages {
+        &__items {
+            margin-top: 79px;
+            grid-template-columns: repeat(2,minmax(auto,386px));
+            grid-template-rows: 231px;
+        }
+        &__item {
+            &-title {
+                margin-top: 34px;
+            }
         }
     }
 }
@@ -154,6 +177,27 @@
             margin-top: 36px;
         }
     }
+    .advantages {
+        padding-top: 118px;
+        &__title {
+            text-align: center;
+        }
+        &__items {
+            margin-top: 62px;
+            grid-template-columns: repeat(auto-fit,minmax(auto,386px));
+            grid-template-rows: unset;
+            justify-content: center;
+        }
+        &__item {
+            align-items: center;
+            &-title {
+                text-align: center;
+            }
+            &-subtitle {
+                text-align: center;
+            }
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -190,7 +234,7 @@
     .facilities {
         padding-top: 100px;
         &__title {
-            font-size: 24px;
+            font-size: 29px;
             line-height: 31px;
         }
         &__items {
@@ -224,6 +268,19 @@
         }
         &__subtitle {
             font-size: 15px;
+        }
+    }
+    .advantages {
+        &__title {
+            font-size: 32px;
+        }
+        &__items {
+            margin-top: 43px;
+        }
+        &__item {
+            &-title {
+                margin-top: 21px;
+            }
         }
     }
 }
